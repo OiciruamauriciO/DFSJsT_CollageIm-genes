@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .uno {
+    grid-area: uno;
+  }
+  .dos {
+    grid-area: dos;
+  }
+
+  .tres {
+    grid-area: tres;
+  }
+
+  .cuatro {
+    grid-area: cuatro;
+  }
+
+  .cinco {
+    grid-area: cinco;
+  }
+
+  .grid-container {
+    margin: auto;
+    background: white;
+    display: grid;
+    grid-template-areas:
+      "uno . tres"
+      "uno cinco cuatro"
+      ". . cuatro"
+      "dos dos cuatro";
+    grid-gap: 3px;
+    text-shadow: 1px 1px 1px black;
+    padding: 3px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .grid-container div {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container div:nth-child(1) {
+    background-color: cadetblue;
+  }
+  .grid-container div:nth-child(2) {
+    background-color: blueviolet;
+  }
+  .grid-container div:nth-child(3) {
+    background-color: brown;
+  }
+  .grid-container div:nth-child(4) {
+    background-color: burlywood;
+  }
+  .grid-container div:nth-child(5) {
+    background-color: coral;
+  }
+  .grid-container div:nth-child(6) {
+    background-color: cornflowerblue;
+  }
+  .grid-container div:nth-child(7) {
+    background-color: darkorange;
+  }
+  .grid-container div:nth-child(8) {
+    background-color: tomato;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }

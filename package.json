@@ -1,0 +1,22 @@
+{
+  "name": "descollagedeimagenes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jquery": "^3.6.0",
+    "node-localstorage": "^2.2.1",
+    "nodemon": "^2.0.19"
+  }
+}
